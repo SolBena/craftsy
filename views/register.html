@@ -7,6 +7,116 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Soy register</h1>
+    <header>
+        <div>
+            <a href="/">
+                <img src="/img/logo.png" alt="Logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="">Srmatphones</a></li>
+                    <li><a href=""> Tablets</a></li>
+                    <li><a href="">Computadoras</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">Login</a></li>
+                    <li><a href="">Register</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+        <h1>Bienvenido</h1>
+        <form action="">
+
+            <div>
+                <label for="">Nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                 <small>Obligatorio</small>
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email">
+                <small>Obligatorio</small>
+
+            </div>
+
+            <div>
+                <label for="password">Contrasenia</label>
+                <input type="password" name="password" id="password" placeholder="Constrasenia">
+                <small>Obligatorio</small>
+
+            </div>
+            <div>
+                <label for="password2">Confirmar contrasenia</label>
+                <input type="password" name="password" id="password">
+                <small>Obligatorio</small>
+
+            </div>
+
+            <div>
+
+                <h4>Pais de nacimiento</h4>
+                <select name="pais" id="pais">
+                    <option value="" selected hidden>Selecciones su pais</option>
+                    <option value="">Argentina</option>
+                    <option value="">Brasil</option>
+                    <option value="">Paraguay</option>
+                    <option value="">Uruguay</option>
+                    <option value="">Bolivia</option>
+
+                </select>
+
+            </div>
+
+            <div>
+
+<h4>Genero</h4>
+<input type="radio" name="genero" id="m" value="m">
+<label for="m">Masculino</label>
+
+<input type="radio" name="genero" id="f" value="f">
+<label for="f">Femenino</label>
+<input type="radio" name="genero" id="p" value="p">
+<label for="p">Prefiero no decirlo</label>
+
+            </div>
+
+<div>
+    <h4>Hobbies</h4>
+
+    <input type= "checkbox" name="1" id="1">
+    <label for="1">checkbox</label>
+
+    <input type= "checkbox" name="2" id="2">
+    <label for="2">checkbox</label>
+
+    <input type= "checkbox" name="3" id="3">
+    <label for="3">checkbox</label>
+
+    <input type= "checkbox" name="4" id="4">
+    <label for="4">checkbox</label>
+
+</div>
+
+<div>
+    <h4>Dejanos tu comentario</h4>
+    <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+</div>
+
+<div>
+    <input type="checkbox" name="" id="">
+    <label for="">Terminos y condiciones</label>
+</div>
+
+<div>
+    <button type="submit">Registrarme</button>
+    <button type="reset">Cancelar</button>
+</div>
+        </form>
+    </main>
 </body>
 </html>
